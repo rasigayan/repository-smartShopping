@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/background"
+
+    android:padding="7dp">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <TextView android:id="@+id/fullscreen_content" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:keepScreenOn="true" android:textColor="#33b5e5"
+        android:textStyle="bold" android:textSize="50sp" android:gravity="top"
+        android:text="Contact Us" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="We are always interested in feedback from our customers. If you would like to share a story or let us know how we can improve your next visit to Chick-fil-A, please Give Us Your Feedback. We value what you have to say."
+        android:id="@+id/textView2"
+        android:textColor="#84D24D"
+        android:layout_below="@+id/fullscreen_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Call Us  01125261352  ,  01125262904 "
+        android:id="@+id/textView3"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Monday - Thursday  12:00–14:30  17:30–23:00    Friday - Saturday  12:00–14:30  17:30–23:30 "
+        android:id="@+id/textView4"
+        android:textColor="#84D24D"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Delivey Details"
+        android:id="@+id/textView5"
+        android:textColor="#33b5e5"
+        android:textStyle="bold" android:textSize="25sp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="On all special contracted events which include staffing and special rentals service fees of 18% will be charged as will the tax rate of 9.741% on all services and foods provided."
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView6"
+        android:textColor="#84D24D"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/btnLogout"
+        android:background="@drawable/logout"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_toRightOf="@+id/fullscreen_content"
+        android:layout_toEndOf="@+id/fullscreen_content" /><![CDATA[
+
+    TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    ]]><!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rasi.SmartTshirts" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.rasi.SmartTshirts.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.rasi.SmartTshirts.CatalogActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.ProductDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.ShoppingCartActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.Registration"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.LoginActivity"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.WelcomeScreen"
+            android:label="welcome" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.Contact_Us"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.Search"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.rasi.SmartTshirts.FeedBack"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.example.rasi.SmartTshirts.TotalPayment"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

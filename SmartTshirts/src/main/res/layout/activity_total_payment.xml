@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tharindu.foodcity.TotalPayment" android:padding="6dp"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:gravity="top"
+        android:text="Payments"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="You&apos;re almost done! Until you complete checkout, another user may buy this item."
+        android:id="@+id/textView13"
+        android:textColor="#DDB2F1"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/txtTotal"
+        android:text="Total Price"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/paymentmethod"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:background="@drawable/paynow"
+        android:id="@+id/button"
+        android:layout_below="@+id/txtTotal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp" />
+
+</RelativeLayout>
